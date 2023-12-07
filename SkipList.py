@@ -10,7 +10,7 @@ class SkipList:
             self.next = [None] * (level + 1) # only need singly linked towers
 
     def __init__(self):
-        self.max_level = 10
+        self.max_level = 8
         self.header = self.Node(float('-inf'), None, self.max_level)
         self.level = 0
         self.size = 0
