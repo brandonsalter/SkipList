@@ -119,7 +119,7 @@ if __name__ == "__main__":
     key_to_search = 34
     result = skip_list.search(key_to_search)
     if result:
-        print(f'\nKey ({key_to_search}) Value: {result.key}')
+        print(f'\nKey ({key_to_search}) Value: {result.value}')
     else:
         print(f'\nKey {key_to_search} not found')
 
